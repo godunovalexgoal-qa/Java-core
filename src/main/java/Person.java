@@ -1,16 +1,18 @@
 public class Person {
-    public static void main(String[] args) {
-        Person person = new Person();
-        person.introduce();
-    }
+    String firstName;
+    String lastName;
+    int age;
 
     public void introduce() {
-        String firstName = "Nikolay";
-        String lastName  = "Baskov";
-        int age = 25;
-
         System.out.println("Привет, меня зовут " + firstName + " " + lastName + ". Мне " + age + " лет.");
-
         };
+
+    public static void main(String[] args) {
+        Person person = new Person();
+        person.firstName = "Nikolay";
+        person.lastName = "Baskov";
+        person.age = 25;
+        person.introduce();
+    }
 }
 

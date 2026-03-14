@@ -15,7 +15,7 @@ public class Prices {
         if (budget >= total) {
             System.out.println("Бюджета хватает! Остаток: " + (budget - total));
         } else {
-            System.out.println("Бюджета хватает! Недостаток: " + (total - budget));
+            System.out.println("Бюджета не хватает! Недостаток: " + (total - budget));
         }
     }
 }
